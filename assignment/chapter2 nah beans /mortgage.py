@@ -12,4 +12,4 @@ interest =  float (interest / 12 )
 
 
 
-print(principal * (interest * (1 + interest) ** duration) / (1 + interest) ** duration - 1)
+print principal * ( interest * (1 + interest ) ** duration ) / ((1 + interest) ** duration - 1)
