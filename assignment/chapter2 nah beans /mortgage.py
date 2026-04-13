@@ -1,15 +1,14 @@
 principal = input(" put in principal amount:   ")
 principal = float(principal)
 
-interest = input(" put in interest rate:   ")
-interest = float(interest)
+annual_rate = input(" put in interest rate:   ")
+annual_rate = float(annual_rate)
 
 duration = input(" put in your duration in years:   ")
 duration = float(duration)
 
-duration = float (duration * 12 )
-interest =  float (interest / 12 )
 
+monthly_rate = (annual_rate / 100) / 12
+month = duration * years
 
-
-print principal * ( interest * (1 + interest ) ** duration ) / ((1 + interest) ** duration - 1)
+print (principal * (monthly_rate * (1 + monthly_rate) ** month) // ((1 + monthly_rate) ** month - 1 ))

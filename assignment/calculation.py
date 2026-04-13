@@ -1,0 +1,10 @@
+user1 = input('put in number:  ')
+user2 = input('put in number:  ')
+user3 = input('put in number:  ')
+number1 = int(user1)
+number2 = int(user2)
+number3 = int(user3)
+print(number1 + number2 + number3)
+print(number1 * number2 * number3)
+print ((number1 + number2 + number3) / 2)
+
