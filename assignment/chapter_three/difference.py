@@ -1,0 +1,1 @@
+""" the mean and why it is being affected by it is the mean sums all values in a dataset so an high or low outlier can shifts the total, altering the average. while the mode and median is not affected because the median only considers the middle value and the mode is unaffected because it only representd the most occuring value """
